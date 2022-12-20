@@ -4,8 +4,12 @@ const Home = () => {
   return (
     <>
       <div className="home">
-        <h1>Gallery App</h1>
-        <p style={{fontSize: '40px'}}>Keep all your memories here and show others</p>
+        <div>
+          <h1>Photo Gallery</h1>
+        </div>
+        <div>
+          <p style={{fontSize: '40px'}}>Keep all your memories here and show others</p>
+        </div>
       </div>
     </>
   );
